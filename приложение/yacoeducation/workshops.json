@@ -1,0 +1,335 @@
+{
+  "version": 1,
+  "brand": "YaCoEducation",
+  "workshops": [
+    {
+      "id": "web",
+      "title": "HTML, CSS и JavaScript",
+      "subtitle": "Соберите свою первую веб-страницу",
+      "category": "Веб-разработка",
+      "badge": "</>",
+      "accent": "blue",
+      "mode": "Код и результат",
+      "description": "От структуры страницы и оформления до интерактивного списка задач.",
+      "topics": [
+        "HTML",
+        "CSS",
+        "DOM"
+      ],
+      "level": "С нуля",
+      "lessonCount": 19,
+      "source": "../web-trainer",
+      "progress": {
+        "storageKey": "web-workshop-v1",
+        "version": 1,
+        "lessonIds": [
+          "html-1",
+          "html-2",
+          "html-3",
+          "html-4",
+          "html-5",
+          "html-6",
+          "css-1",
+          "css-2",
+          "css-3",
+          "css-4",
+          "css-5",
+          "css-6",
+          "js-1",
+          "js-2",
+          "js-3",
+          "js-4",
+          "js-5",
+          "js-6",
+          "project"
+        ]
+      }
+    },
+    {
+      "id": "js",
+      "title": "JavaScript",
+      "subtitle": "От первой строки к своим решениям",
+      "category": "Программирование",
+      "badge": "JS",
+      "accent": "amber",
+      "mode": "JavaScript в браузере",
+      "description": "Переменные, функции, массивы и async. В финале — анализатор расходов.",
+      "topics": [
+        "Функции",
+        "Массивы",
+        "Async"
+      ],
+      "level": "С нуля",
+      "lessonCount": 19,
+      "source": "../js-trainer",
+      "progress": {
+        "storageKey": "js-workshop-v1",
+        "version": 1,
+        "lessonIds": [
+          "js-1",
+          "js-2",
+          "js-3",
+          "js-4",
+          "js-5",
+          "js-6",
+          "js-7",
+          "js-8",
+          "js-9",
+          "js-10",
+          "js-11",
+          "js-12",
+          "js-13",
+          "js-14",
+          "js-15",
+          "js-16",
+          "js-17",
+          "js-18",
+          "js-19"
+        ]
+      }
+    },
+    {
+      "id": "python",
+      "title": "Python",
+      "subtitle": "Научитесь мыслить программами",
+      "category": "Программирование",
+      "badge": "Py",
+      "accent": "violet",
+      "mode": "Python в браузере",
+      "description": "Пишите настоящий Python, работайте с данными и проверяйте свои функции.",
+      "topics": [
+        "Основы",
+        "Данные",
+        "Функции"
+      ],
+      "level": "С нуля",
+      "lessonCount": 19,
+      "source": "../python-trainer",
+      "progress": {
+        "storageKey": "python-workshop-v1",
+        "version": 1,
+        "lessonIds": [
+          "first-1",
+          "first-2",
+          "first-3",
+          "first-4",
+          "first-5",
+          "first-6",
+          "flow-1",
+          "flow-2",
+          "flow-3",
+          "flow-4",
+          "flow-5",
+          "flow-6",
+          "data-1",
+          "data-2",
+          "data-3",
+          "data-4",
+          "data-5",
+          "data-6",
+          "project"
+        ]
+      }
+    },
+    {
+      "id": "ubuntu",
+      "title": "Терминал Ubuntu",
+      "subtitle": "Освойтесь в командной строке",
+      "category": "Linux и серверы",
+      "badge": ">_",
+      "accent": "coral",
+      "mode": "Учебный симулятор",
+      "description": "Навигация, файлы, текст и базовые инструменты в виртуальной Ubuntu.",
+      "topics": [
+        "Терминал",
+        "Файлы",
+        "Команды"
+      ],
+      "level": "С нуля",
+      "lessonCount": 19,
+      "source": "../ubuntu-trainer",
+      "progress": {
+        "storageKey": "ubuntu-workshop-v1",
+        "version": 1,
+        "lessonIds": [
+          "start-1",
+          "start-2",
+          "start-3",
+          "start-4",
+          "start-5",
+          "start-6",
+          "files-1",
+          "files-2",
+          "files-3",
+          "files-4",
+          "files-5",
+          "files-6",
+          "tools-1",
+          "tools-2",
+          "tools-3",
+          "tools-4",
+          "tools-5",
+          "tools-6",
+          "final"
+        ]
+      }
+    },
+    {
+      "id": "vim",
+      "title": "Редактор Vim",
+      "subtitle": "Редактируйте, не отрываясь от клавиатуры",
+      "category": "Инструменты",
+      "badge": "Vim",
+      "accent": "green",
+      "mode": "Учебный симулятор",
+      "description": "Режимы, движения и операторы. Практика на виртуальном тексте с проверкой.",
+      "topics": [
+        "Режимы",
+        "Движения",
+        "Текст"
+      ],
+      "level": "С нуля",
+      "lessonCount": 19,
+      "source": "../vim-trainer",
+      "progress": {
+        "storageKey": "vim-workshop-v1",
+        "version": 1,
+        "lessonIds": [
+          "start-1",
+          "start-2",
+          "start-3",
+          "start-4",
+          "start-5",
+          "start-6",
+          "edit-1",
+          "edit-2",
+          "edit-3",
+          "edit-4",
+          "edit-5",
+          "edit-6",
+          "tools-1",
+          "tools-2",
+          "tools-3",
+          "tools-4",
+          "tools-5",
+          "tools-6",
+          "final"
+        ]
+      }
+    },
+    {
+      "id": "tmux",
+      "title": "Терминал tmux",
+      "subtitle": "Организуйте рабочее пространство",
+      "category": "Инструменты",
+      "badge": "[t]",
+      "accent": "teal",
+      "mode": "Учебный симулятор",
+      "description": "Сессии, окна, панели и возвращение к работе после отключения.",
+      "topics": [
+        "Сессии",
+        "Окна",
+        "Панели"
+      ],
+      "level": "С нуля",
+      "lessonCount": 19,
+      "source": "../tmux-trainer",
+      "progress": {
+        "storageKey": "tmux-workshop-v1",
+        "version": 1,
+        "lessonIds": [
+          "start-1",
+          "start-2",
+          "start-3",
+          "start-4",
+          "start-5",
+          "start-6",
+          "panes-1",
+          "panes-2",
+          "panes-3",
+          "panes-4",
+          "panes-5",
+          "panes-6",
+          "manage-1",
+          "manage-2",
+          "manage-3",
+          "manage-4",
+          "manage-5",
+          "manage-6",
+          "final"
+        ]
+      }
+    },
+    {
+      "id": "vps",
+      "title": "Первый VPS",
+      "subtitle": "Настройте сервер и сохраните доступ",
+      "category": "Linux и серверы",
+      "badge": "VPS",
+      "accent": "slate",
+      "mode": "Учебный симулятор",
+      "description": "SSH, ключи, firewall, обновления и проверенное восстановление из копии.",
+      "topics": [
+        "SSH",
+        "Firewall",
+        "Копии"
+      ],
+      "level": "С нуля",
+      "lessonCount": 19,
+      "source": "../vps-trainer",
+      "progress": {
+        "storageKey": "vps-workshop-v1",
+        "version": 1,
+        "lessonIds": [
+          "vps-1",
+          "vps-2",
+          "vps-3",
+          "vps-4",
+          "vps-5",
+          "vps-6",
+          "vps-7",
+          "vps-8",
+          "vps-9",
+          "vps-10",
+          "vps-11",
+          "vps-12",
+          "vps-13",
+          "vps-14",
+          "vps-15",
+          "vps-16",
+          "vps-17",
+          "vps-18",
+          "vps-19"
+        ]
+      }
+    }
+  ],
+  "paths": [
+    {
+      "title": "Хочу создавать сайты",
+      "description": "Начните со страницы, затем углубитесь в JavaScript.",
+      "workshops": [
+        "web",
+        "js"
+      ]
+    },
+    {
+      "title": "Хочу работать с VPS",
+      "description": "Освойте терминал и инструменты, затем настройте учебный сервер.",
+      "workshops": [
+        "ubuntu",
+        "vim",
+        "tmux",
+        "vps"
+      ]
+    },
+    {
+      "title": "Хочу начать программировать",
+      "description": "Выберите Python или JavaScript — оба курса начинаются с основ.",
+      "workshops": [
+        "python",
+        "js"
+      ]
+    }
+  ]
+}

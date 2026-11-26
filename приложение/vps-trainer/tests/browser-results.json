@@ -1,0 +1,65 @@
+{
+  "lessons": [
+    "vps-1",
+    "vps-2",
+    "vps-3",
+    "vps-4",
+    "vps-5",
+    "vps-6",
+    "vps-7",
+    "vps-8",
+    "vps-9",
+    "vps-10",
+    "vps-11",
+    "vps-12",
+    "vps-13",
+    "vps-14",
+    "vps-15",
+    "vps-16",
+    "vps-17",
+    "vps-18",
+    "vps-19"
+  ],
+  "dimensions": [
+    {
+      "width": 1440,
+      "document": 1440
+    },
+    {
+      "width": 1024,
+      "document": 1024
+    },
+    {
+      "width": 768,
+      "document": 768
+    },
+    {
+      "width": 390,
+      "document": 390
+    },
+    {
+      "width": 320,
+      "document": 320
+    }
+  ],
+  "reload": true,
+  "reset": true,
+  "lockoutRecovery": true,
+  "configError": true,
+  "editorReload": true,
+  "editorCancel": true,
+  "safeText": true,
+  "history": true,
+  "tab": true,
+  "reference": true,
+  "mobileTabs": true,
+  "largeText": {
+    "width": 1440,
+    "document": 1440,
+    "text": "32px"
+  },
+  "corrupt": true,
+  "denied": true,
+  "pageErrors": [],
+  "externalRequests": []
+}

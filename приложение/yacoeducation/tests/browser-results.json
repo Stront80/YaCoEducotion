@@ -1,0 +1,108 @@
+{
+  "workshops": [
+    {
+      "id": "web",
+      "loaded": true,
+      "exercise": true,
+      "liveProgress": true
+    },
+    {
+      "id": "js",
+      "loaded": true,
+      "exercise": true,
+      "liveProgress": true
+    },
+    {
+      "id": "python",
+      "loaded": true,
+      "exercise": true,
+      "liveProgress": true
+    },
+    {
+      "id": "ubuntu",
+      "loaded": true,
+      "exercise": true,
+      "liveProgress": true
+    },
+    {
+      "id": "vim",
+      "loaded": true,
+      "exercise": true,
+      "liveProgress": true
+    },
+    {
+      "id": "tmux",
+      "loaded": true,
+      "exercise": true,
+      "liveProgress": true
+    },
+    {
+      "id": "vps",
+      "loaded": true,
+      "exercise": true,
+      "liveProgress": true
+    }
+  ],
+  "catalogDimensions": [
+    {
+      "width": 1440,
+      "document": 1440
+    },
+    {
+      "width": 1024,
+      "document": 1024
+    },
+    {
+      "width": 768,
+      "document": 768
+    },
+    {
+      "width": 390,
+      "document": 390
+    },
+    {
+      "width": 320,
+      "document": 320
+    }
+  ],
+  "studyDimensions": [
+    {
+      "width": 1440,
+      "document": 1440
+    },
+    {
+      "width": 1024,
+      "document": 1024
+    },
+    {
+      "width": 768,
+      "document": 768
+    },
+    {
+      "width": 390,
+      "document": 390
+    },
+    {
+      "width": 320,
+      "document": 320
+    }
+  ],
+  "searchAndFilters": true,
+  "sharedProgress": true,
+  "reload": true,
+  "navigation": true,
+  "mobileExercise": true,
+  "largeText": {
+    "width": 1440,
+    "document": 1440,
+    "text": "36px"
+  },
+  "missing": true,
+  "http": true,
+  "registryExtension": true,
+  "corrupt": true,
+  "denied": true,
+  "retry": true,
+  "pageErrors": [],
+  "externalRequests": []
+}

@@ -1,0 +1,200 @@
+{
+  "version": "Python 3.14.2 · локально",
+  "lessons": [
+    {
+      "id": "first-1",
+      "success": true
+    },
+    {
+      "id": "first-2",
+      "success": true
+    },
+    {
+      "id": "first-3",
+      "success": true
+    },
+    {
+      "id": "first-4",
+      "success": true
+    },
+    {
+      "id": "first-5",
+      "success": true
+    },
+    {
+      "id": "first-6",
+      "success": true
+    },
+    {
+      "id": "flow-1",
+      "success": true
+    },
+    {
+      "id": "flow-2",
+      "success": true
+    },
+    {
+      "id": "flow-3",
+      "success": true
+    },
+    {
+      "id": "flow-4",
+      "success": true
+    },
+    {
+      "id": "flow-5",
+      "success": true
+    },
+    {
+      "id": "flow-6",
+      "success": true
+    },
+    {
+      "id": "data-1",
+      "success": true
+    },
+    {
+      "id": "data-2",
+      "success": true
+    },
+    {
+      "id": "data-3",
+      "success": true
+    },
+    {
+      "id": "data-4",
+      "success": true
+    },
+    {
+      "id": "data-5",
+      "success": true
+    },
+    {
+      "id": "data-6",
+      "success": true
+    },
+    {
+      "id": "project",
+      "success": true
+    }
+  ],
+  "reload": true,
+  "variants": [
+    {
+      "id": "first-1",
+      "alternative": true,
+      "starter": false,
+      "wrong": false
+    },
+    {
+      "id": "first-2",
+      "alternative": true,
+      "starter": false,
+      "wrong": false
+    },
+    {
+      "id": "first-3",
+      "alternative": true,
+      "starter": false,
+      "wrong": false
+    },
+    {
+      "id": "first-4",
+      "alternative": true,
+      "starter": false,
+      "wrong": false
+    },
+    {
+      "id": "first-5",
+      "alternative": true,
+      "starter": false,
+      "wrong": false
+    },
+    {
+      "id": "first-6",
+      "alternative": true,
+      "starter": false,
+      "wrong": false
+    },
+    {
+      "id": "flow-1",
+      "alternative": true,
+      "starter": false,
+      "wrong": false
+    },
+    {
+      "id": "flow-2",
+      "alternative": true,
+      "starter": false,
+      "wrong": false
+    },
+    {
+      "id": "flow-3",
+      "alternative": true,
+      "starter": false,
+      "wrong": false
+    },
+    {
+      "id": "flow-4",
+      "alternative": true,
+      "starter": false,
+      "wrong": false
+    },
+    {
+      "id": "flow-5",
+      "alternative": true,
+      "starter": false,
+      "wrong": false
+    },
+    {
+      "id": "flow-6",
+      "alternative": true,
+      "starter": false,
+      "wrong": false
+    },
+    {
+      "id": "data-1",
+      "alternative": true,
+      "starter": false,
+      "wrong": false
+    },
+    {
+      "id": "data-2",
+      "alternative": true,
+      "starter": false,
+      "wrong": false
+    },
+    {
+      "id": "data-3",
+      "alternative": true,
+      "starter": false,
+      "wrong": false
+    },
+    {
+      "id": "data-4",
+      "alternative": true,
+      "starter": false,
+      "wrong": false
+    },
+    {
+      "id": "data-5",
+      "alternative": true,
+      "starter": false,
+      "wrong": false
+    },
+    {
+      "id": "data-6",
+      "alternative": true,
+      "starter": false,
+      "wrong": false
+    },
+    {
+      "id": "project",
+      "alternative": true,
+      "starter": false,
+      "wrong": false
+    }
+  ],
+  "externalRequests": [],
+  "pageErrors": []
+}

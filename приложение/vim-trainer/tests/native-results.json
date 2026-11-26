@@ -1,0 +1,460 @@
+{
+  "vim": "VIM - Vi IMproved 9.1 (2024 Jan 02, compiled Aug 24 2026 22:11:12)",
+  "temporary_directory": "/tmp/vim-trainer-compare-a50oi_go",
+  "cases": [
+    {
+      "id": "insert",
+      "match": true,
+      "native": {
+        "col": 2,
+        "row": 0,
+        "lines": [
+          "Hi abc"
+        ]
+      },
+      "model": {
+        "lines": [
+          "Hi abc"
+        ],
+        "row": 0,
+        "col": 2
+      }
+    },
+    {
+      "id": "append",
+      "match": true,
+      "native": {
+        "col": 3,
+        "row": 0,
+        "lines": [
+          "abc!"
+        ]
+      },
+      "model": {
+        "lines": [
+          "abc!"
+        ],
+        "row": 0,
+        "col": 3
+      }
+    },
+    {
+      "id": "open",
+      "match": true,
+      "native": {
+        "col": 5,
+        "row": 1,
+        "lines": [
+          "top",
+          "middle",
+          "bottom"
+        ]
+      },
+      "model": {
+        "lines": [
+          "top",
+          "middle",
+          "bottom"
+        ],
+        "row": 1,
+        "col": 5
+      }
+    },
+    {
+      "id": "replace",
+      "match": true,
+      "native": {
+        "col": 2,
+        "row": 0,
+        "lines": [
+          "cat"
+        ]
+      },
+      "model": {
+        "lines": [
+          "cat"
+        ],
+        "row": 0,
+        "col": 2
+      }
+    },
+    {
+      "id": "delete-word",
+      "match": true,
+      "native": {
+        "col": 0,
+        "row": 0,
+        "lines": [
+          "green blue"
+        ]
+      },
+      "model": {
+        "lines": [
+          "green blue"
+        ],
+        "row": 0,
+        "col": 0
+      }
+    },
+    {
+      "id": "delete-end",
+      "match": true,
+      "native": {
+        "col": 0,
+        "row": 0,
+        "lines": [
+          " green blue"
+        ]
+      },
+      "model": {
+        "lines": [
+          " green blue"
+        ],
+        "row": 0,
+        "col": 0
+      }
+    },
+    {
+      "id": "count-operator",
+      "match": true,
+      "native": {
+        "col": 0,
+        "row": 0,
+        "lines": [
+          "three four"
+        ]
+      },
+      "model": {
+        "lines": [
+          "three four"
+        ],
+        "row": 0,
+        "col": 0
+      }
+    },
+    {
+      "id": "operator-count",
+      "match": true,
+      "native": {
+        "col": 0,
+        "row": 0,
+        "lines": [
+          "three four"
+        ]
+      },
+      "model": {
+        "lines": [
+          "three four"
+        ],
+        "row": 0,
+        "col": 0
+      }
+    },
+    {
+      "id": "combined-count",
+      "match": true,
+      "native": {
+        "col": 0,
+        "row": 0,
+        "lines": [
+          "five"
+        ]
+      },
+      "model": {
+        "lines": [
+          "five"
+        ],
+        "row": 0,
+        "col": 0
+      }
+    },
+    {
+      "id": "change-word",
+      "match": true,
+      "native": {
+        "col": 3,
+        "row": 0,
+        "lines": [
+          "fast editor"
+        ]
+      },
+      "model": {
+        "lines": [
+          "fast editor"
+        ],
+        "row": 0,
+        "col": 3
+      }
+    },
+    {
+      "id": "one-letter-change",
+      "match": true,
+      "native": {
+        "col": 0,
+        "row": 0,
+        "lines": [
+          "X word"
+        ]
+      },
+      "model": {
+        "lines": [
+          "X word"
+        ],
+        "row": 0,
+        "col": 0
+      }
+    },
+    {
+      "id": "delete-lines",
+      "match": true,
+      "native": {
+        "col": 0,
+        "row": 1,
+        "lines": [
+          "a",
+          "d"
+        ]
+      },
+      "model": {
+        "lines": [
+          "a",
+          "d"
+        ],
+        "row": 1,
+        "col": 0
+      }
+    },
+    {
+      "id": "yank-lines",
+      "match": true,
+      "native": {
+        "col": 0,
+        "row": 1,
+        "lines": [
+          "item",
+          "item",
+          "end"
+        ]
+      },
+      "model": {
+        "lines": [
+          "item",
+          "item",
+          "end"
+        ],
+        "row": 1,
+        "col": 0
+      }
+    },
+    {
+      "id": "put-before",
+      "match": true,
+      "native": {
+        "col": 0,
+        "row": 0,
+        "lines": [
+          "abc"
+        ]
+      },
+      "model": {
+        "lines": [
+          "abc"
+        ],
+        "row": 0,
+        "col": 0
+      }
+    },
+    {
+      "id": "put-after",
+      "match": true,
+      "native": {
+        "col": 2,
+        "row": 0,
+        "lines": [
+          "bca"
+        ]
+      },
+      "model": {
+        "lines": [
+          "bca"
+        ],
+        "row": 0,
+        "col": 2
+      }
+    },
+    {
+      "id": "visual-char",
+      "match": true,
+      "native": {
+        "col": 0,
+        "row": 0,
+        "lines": [
+          "de"
+        ]
+      },
+      "model": {
+        "lines": [
+          "de"
+        ],
+        "row": 0,
+        "col": 0
+      }
+    },
+    {
+      "id": "visual-line",
+      "match": true,
+      "native": {
+        "col": 0,
+        "row": 1,
+        "lines": [
+          "a",
+          "d"
+        ]
+      },
+      "model": {
+        "lines": [
+          "a",
+          "d"
+        ],
+        "row": 1,
+        "col": 0
+      }
+    },
+    {
+      "id": "search",
+      "match": true,
+      "native": {
+        "col": 0,
+        "row": 2,
+        "lines": [
+          "start",
+          "cat one",
+          "cat two"
+        ]
+      },
+      "model": {
+        "lines": [
+          "start",
+          "cat one",
+          "cat two"
+        ],
+        "row": 2,
+        "col": 0
+      }
+    },
+    {
+      "id": "undo-redo",
+      "match": true,
+      "native": {
+        "col": 5,
+        "row": 0,
+        "lines": [
+          "ready!"
+        ]
+      },
+      "model": {
+        "lines": [
+          "ready!"
+        ],
+        "row": 0,
+        "col": 5
+      }
+    },
+    {
+      "id": "word-punctuation",
+      "match": true,
+      "native": {
+        "col": 7,
+        "row": 0,
+        "lines": [
+          "one, two three"
+        ]
+      },
+      "model": {
+        "lines": [
+          "one, two three"
+        ],
+        "row": 0,
+        "col": 7
+      }
+    },
+    {
+      "id": "file-start-end",
+      "match": true,
+      "native": {
+        "col": 0,
+        "row": 0,
+        "lines": [
+          "a",
+          "b",
+          "c"
+        ]
+      },
+      "model": {
+        "lines": [
+          "a",
+          "b",
+          "c"
+        ],
+        "row": 0,
+        "col": 0
+      }
+    },
+    {
+      "id": "end-line-delete",
+      "match": true,
+      "native": {
+        "col": 0,
+        "row": 0,
+        "lines": [
+          "",
+          "two"
+        ]
+      },
+      "model": {
+        "lines": [
+          "",
+          "two"
+        ],
+        "row": 0,
+        "col": 0
+      }
+    },
+    {
+      "id": "backward-delete",
+      "match": true,
+      "native": {
+        "col": 0,
+        "row": 0,
+        "lines": [
+          "two"
+        ]
+      },
+      "model": {
+        "lines": [
+          "two"
+        ],
+        "row": 0,
+        "col": 0
+      }
+    },
+    {
+      "id": "line-change",
+      "match": true,
+      "native": {
+        "col": 2,
+        "row": 0,
+        "lines": [
+          "new"
+        ]
+      },
+      "model": {
+        "lines": [
+          "new"
+        ],
+        "row": 0,
+        "col": 2
+      }
+    }
+  ]
+}

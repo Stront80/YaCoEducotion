@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Локальная веб-мастерская: интерактивные уроки HTML, CSS и JavaScript для начинающих.">
+  <title>Веб-мастерская — учимся создавать сайты</title>
+  <link rel="icon" href="assets/hello.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="lessons.js" defer></script>
+  <script src="runner.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#workspace">К уроку</a>
+<header class="topbar">
+  <a class="brand" href="#" aria-label="Веб-мастерская, первый урок"><span class="brand-mark" aria-hidden="true">&lt;/&gt;</span><span>Веб-мастерская<small>От первой строки к своему сайту</small></span></a>
+  <div class="local"><span aria-hidden="true">▣</span> Локально · без аккаунта</div>
+</header>
+<main>
+  <section class="welcome" aria-label="Ваш путь">
+    <div><span class="eyebrow">УЧИТЕСЬ ЧЕРЕЗ ПРАКТИКУ</span><h1>Большие идеи начинаются<br>с первой строки кода.</h1><p>Пишите, пробуйте и сразу смотрите, что получилось.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span class="muted-tag">18 уроков + проект</span></div></div>
+    <div class="progress-card"><span class="eyebrow">ВАШ ПРОГРЕСС</span><div><strong id="progress-count">0</strong><span> / 19 занятий</span></div><progress id="progress" max="19" value="0" aria-label="Прогресс курса"></progress><p id="progress-text">Первый шаг — уже начало.</p></div>
+  </section>
+  <p id="storage-warning" class="notice" role="status" hidden></p>
+  <div class="layout">
+    <aside class="sidebar"><details id="course-menu" open><summary>Программа курса <span>19 занятий</span></summary><nav id="lessons" aria-label="Уроки курса"></nav></details><div class="sidebar-note"><strong>В своём темпе</strong><p>Любой урок доступен сразу. Ваш код сохраняется в этом браузере.</p></div></aside>
+    <section id="workspace" class="workspace" aria-label="Текущий урок" tabindex="-1">
+      <header class="lesson-head"><div><span id="lesson-category" class="eyebrow"></span><h2 id="lesson-title"></h2></div><span id="lesson-state" class="badge">Практика</span></header>
+      <div class="mobile-tabs" role="tablist" aria-label="Области урока"><button role="tab" id="view-task" aria-controls="task-panel" aria-selected="true" data-view="task">Задание</button><button role="tab" id="view-code" aria-controls="code-panel" aria-selected="false" data-view="code">Код</button><button role="tab" id="view-result" aria-controls="result-panel" aria-selected="false" data-view="result">Результат</button></div>
+      <div class="lesson-grid" data-view="task">
+        <article id="task-panel" class="task-panel"><span class="section-label">РАЗБЕРЁМСЯ</span><p id="theory"></p><div class="assignment"><h3>Ваша задача</h3><p id="task"></p></div><details class="help"><summary>Нужна подсказка?</summary><p id="hint"></p></details><details class="help" id="solution-details"><summary>Разобрать решение</summary><p id="explanation"></p><pre id="solution-code"></pre><button id="use-solution" class="secondary">Перенести в редактор</button><p class="small">Просмотр решения не завершает урок. Запустите проверку, когда разберётесь.</p></details><div class="lesson-foot"><span>Ошибаться — часть обучения.</span><span aria-hidden="true">{ }</span></div></article>
+        <div class="practice-panel"><section id="code-panel" aria-label="Редактор кода"><div class="editor-bar"><div class="code-tabs" role="tablist" aria-label="Язык кода"><button id="tab-html" role="tab" aria-controls="editor-panel" aria-selected="true" data-lang="html">HTML</button><button id="tab-css" role="tab" aria-controls="editor-panel" aria-selected="false" data-lang="css">CSS</button><button id="tab-js" role="tab" aria-controls="editor-panel" aria-selected="false" data-lang="js">JS</button></div><span id="draft-status">Черновик</span></div><div id="editor-panel" role="tabpanel" aria-labelledby="tab-html"><label id="editor-label" for="editor" class="sr-only">Код HTML</label><textarea id="editor" spellcheck="false" autocapitalize="off" autocomplete="off" autocorrect="off" wrap="off" aria-describedby="editor-note"></textarea></div><div class="editor-actions"><span id="editor-note">Код запускается по кнопке</span><button id="reset" class="text-button">Начать заново</button></div><div class="toolbar"><button id="run" class="secondary"><span aria-hidden="true">▷</span> Запустить</button><button id="check" class="primary">Проверить</button></div></section>
+        <section id="result-panel" class="result-panel" aria-label="Результат кода"><div class="result-head"><h3>Результат</h3><span>Изолированная страница</span></div><div id="preview"></div><div id="feedback" class="feedback" role="status" aria-live="polite"><p>Измените код и нажмите «Запустить».</p></div></section></div>
+      </div>
+      <footer class="navigation"><button id="previous" class="secondary">Предыдущий</button><span id="lesson-position"></span><button id="next" class="primary">Следующий урок</button></footer>
+    </section>
+  </div>
+</main>
+<footer class="page-footer"><span>Веб-мастерская · Учитесь, создавая</span><span>Ваш код остаётся на этом устройстве</span></footer>
+<noscript>Для работы тренажёра включите JavaScript в браузере.</noscript>
+</body>
+</html>

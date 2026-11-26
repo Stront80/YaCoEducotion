@@ -1,0 +1,125 @@
+{
+  "lessons": [
+    {
+      "id": "start-1",
+      "success": true
+    },
+    {
+      "id": "start-2",
+      "success": true
+    },
+    {
+      "id": "start-3",
+      "success": true
+    },
+    {
+      "id": "start-4",
+      "success": true
+    },
+    {
+      "id": "start-5",
+      "success": true
+    },
+    {
+      "id": "start-6",
+      "success": true
+    },
+    {
+      "id": "files-1",
+      "success": true
+    },
+    {
+      "id": "files-2",
+      "success": true
+    },
+    {
+      "id": "files-3",
+      "success": true
+    },
+    {
+      "id": "files-4",
+      "success": true
+    },
+    {
+      "id": "files-5",
+      "success": true
+    },
+    {
+      "id": "files-6",
+      "success": true
+    },
+    {
+      "id": "tools-1",
+      "success": true
+    },
+    {
+      "id": "tools-2",
+      "success": true
+    },
+    {
+      "id": "tools-3",
+      "success": true
+    },
+    {
+      "id": "tools-4",
+      "success": true
+    },
+    {
+      "id": "tools-5",
+      "success": true
+    },
+    {
+      "id": "tools-6",
+      "success": true
+    },
+    {
+      "id": "final",
+      "success": true
+    }
+  ],
+  "reload": true,
+  "draft": true,
+  "history": true,
+  "safeText": true,
+  "clear": true,
+  "reset": true,
+  "dimensions": [
+    {
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "width": 1024,
+      "scroll": 1024
+    },
+    {
+      "width": 768,
+      "scroll": 768
+    },
+    {
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "width": 320,
+      "scroll": 320
+    }
+  ],
+  "mobile": true,
+  "largeText": {
+    "font": "32px",
+    "overflow": false
+  },
+  "corrupt": {
+    "warning": true,
+    "working": true,
+    "preserved": true
+  },
+  "denied": {
+    "warning": true,
+    "working": true,
+    "preserved": null
+  },
+  "consoleErrors": [],
+  "externalRequests": []
+}

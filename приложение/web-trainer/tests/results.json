@@ -1,0 +1,891 @@
+{
+  "checks": {
+    "reports": [
+      {
+        "id": "html-1",
+        "solution": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "starter": {
+          "pass": false,
+          "details": [
+            {
+              "label": "У страницы есть название",
+              "pass": false
+            },
+            {
+              "label": "Приветствие в h1",
+              "pass": false
+            }
+          ],
+          "errors": []
+        },
+        "alternative": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "wrong": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Приветствие в h1",
+              "pass": false
+            }
+          ],
+          "errors": []
+        }
+      },
+      {
+        "id": "html-2",
+        "solution": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "starter": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Главный заголовок",
+              "pass": false
+            },
+            {
+              "label": "Заголовок раздела",
+              "pass": false
+            },
+            {
+              "label": "Два содержательных абзаца",
+              "pass": false
+            }
+          ],
+          "errors": []
+        },
+        "alternative": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "wrong": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Главный заголовок",
+              "pass": false
+            }
+          ],
+          "errors": []
+        }
+      },
+      {
+        "id": "html-3",
+        "solution": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "starter": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Понятная ссылка в навигации",
+              "pass": false
+            },
+            {
+              "label": "Целевой раздел с заголовком",
+              "pass": false
+            }
+          ],
+          "errors": []
+        },
+        "alternative": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "wrong": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Понятная ссылка в навигации",
+              "pass": false
+            }
+          ],
+          "errors": []
+        }
+      },
+      {
+        "id": "html-4",
+        "solution": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "starter": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Изображение с осмысленным alt",
+              "pass": false
+            },
+            {
+              "label": "Изображение загрузилось",
+              "pass": false
+            },
+            {
+              "label": "Есть подпись",
+              "pass": false
+            }
+          ],
+          "errors": []
+        },
+        "alternative": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "wrong": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Изображение с осмысленным alt",
+              "pass": false
+            }
+          ],
+          "errors": []
+        }
+      },
+      {
+        "id": "html-5",
+        "solution": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "starter": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Три инструмента",
+              "pass": false
+            },
+            {
+              "label": "Два шага",
+              "pass": false
+            }
+          ],
+          "errors": []
+        },
+        "alternative": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "wrong": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Три инструмента",
+              "pass": false
+            },
+            {
+              "label": "Два шага",
+              "pass": false
+            }
+          ],
+          "errors": []
+        }
+      },
+      {
+        "id": "html-6",
+        "solution": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "starter": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Подписанное поле email",
+              "pass": false
+            },
+            {
+              "label": "Кнопка отправки",
+              "pass": false
+            }
+          ],
+          "errors": []
+        },
+        "alternative": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "wrong": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Подписанное поле email",
+              "pass": false
+            }
+          ],
+          "errors": []
+        }
+      },
+      {
+        "id": "css-1",
+        "solution": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "starter": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Светло-синий фон",
+              "pass": false
+            },
+            {
+              "label": "Тёмный текст",
+              "pass": false
+            }
+          ],
+          "errors": []
+        },
+        "alternative": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "wrong": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Светло-синий фон",
+              "pass": false
+            },
+            {
+              "label": "Тёмный текст",
+              "pass": false
+            }
+          ],
+          "errors": []
+        }
+      },
+      {
+        "id": "css-2",
+        "solution": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "starter": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Размер 20px",
+              "pass": false
+            },
+            {
+              "label": "Высота строки 32px",
+              "pass": false
+            },
+            {
+              "label": "Выравнивание слева",
+              "pass": false
+            }
+          ],
+          "errors": []
+        },
+        "alternative": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "wrong": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Размер 20px",
+              "pass": false
+            },
+            {
+              "label": "Высота строки 32px",
+              "pass": false
+            },
+            {
+              "label": "Выравнивание слева",
+              "pass": false
+            }
+          ],
+          "errors": []
+        }
+      },
+      {
+        "id": "css-3",
+        "solution": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "starter": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Ширина включает рамку",
+              "pass": false
+            },
+            {
+              "label": "Отступ со всех сторон",
+              "pass": false
+            },
+            {
+              "label": "Сплошная рамка 2px",
+              "pass": false
+            }
+          ],
+          "errors": []
+        },
+        "alternative": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "wrong": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Ширина включает рамку",
+              "pass": false
+            },
+            {
+              "label": "Отступ со всех сторон",
+              "pass": false
+            },
+            {
+              "label": "Сплошная рамка 2px",
+              "pass": false
+            }
+          ],
+          "errors": []
+        }
+      },
+      {
+        "id": "css-4",
+        "solution": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "starter": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Горизонтальный flex",
+              "pass": false
+            },
+            {
+              "label": "Центрирование",
+              "pass": false
+            },
+            {
+              "label": "Промежутки 16px",
+              "pass": false
+            }
+          ],
+          "errors": []
+        },
+        "alternative": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "wrong": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Горизонтальный flex",
+              "pass": false
+            },
+            {
+              "label": "Центрирование",
+              "pass": false
+            },
+            {
+              "label": "Промежутки 16px",
+              "pass": false
+            }
+          ],
+          "errors": []
+        }
+      },
+      {
+        "id": "css-5",
+        "solution": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "starter": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Grid-контейнер",
+              "pass": false
+            },
+            {
+              "label": "Три равные колонки",
+              "pass": false
+            },
+            {
+              "label": "Промежуток 12px",
+              "pass": false
+            }
+          ],
+          "errors": []
+        },
+        "alternative": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "wrong": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Grid-контейнер",
+              "pass": false
+            },
+            {
+              "label": "Три равные колонки",
+              "pass": false
+            },
+            {
+              "label": "Промежуток 12px",
+              "pass": false
+            }
+          ],
+          "errors": []
+        }
+      },
+      {
+        "id": "css-6",
+        "solution": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "starter": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Ограниченная адаптивная ширина",
+              "pass": false
+            },
+            {
+              "label": "Отступ зависит от ширины",
+              "pass": false
+            }
+          ],
+          "errors": []
+        },
+        "alternative": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "wrong": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Ограниченная адаптивная ширина",
+              "pass": false
+            },
+            {
+              "label": "Отступ зависит от ширины",
+              "pass": false
+            }
+          ],
+          "errors": []
+        }
+      },
+      {
+        "id": "js-1",
+        "solution": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "starter": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Переменная name содержит Мир",
+              "pass": false
+            },
+            {
+              "label": "Приветствие на странице",
+              "pass": false
+            }
+          ],
+          "errors": []
+        },
+        "alternative": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "wrong": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Переменная name содержит Мир",
+              "pass": false
+            },
+            {
+              "label": "Приветствие на странице",
+              "pass": false
+            }
+          ],
+          "errors": []
+        }
+      },
+      {
+        "id": "js-2",
+        "solution": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "starter": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Граница возраста и разные значения",
+              "pass": false
+            },
+            {
+              "label": "Результат показан",
+              "pass": false
+            }
+          ],
+          "errors": []
+        },
+        "alternative": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "wrong": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Граница возраста и разные значения",
+              "pass": false
+            },
+            {
+              "label": "Результат показан",
+              "pass": false
+            }
+          ],
+          "errors": []
+        }
+      },
+      {
+        "id": "js-3",
+        "solution": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "starter": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Функция считает разные покупки",
+              "pass": false
+            },
+            {
+              "label": "На странице 360",
+              "pass": false
+            }
+          ],
+          "errors": []
+        },
+        "alternative": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "wrong": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Функция считает разные покупки",
+              "pass": false
+            },
+            {
+              "label": "На странице 360",
+              "pass": false
+            }
+          ],
+          "errors": []
+        }
+      },
+      {
+        "id": "js-4",
+        "solution": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "starter": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Сумма разных массивов",
+              "pass": false
+            },
+            {
+              "label": "На странице 12",
+              "pass": false
+            }
+          ],
+          "errors": []
+        },
+        "alternative": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "wrong": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Сумма разных массивов",
+              "pass": false
+            },
+            {
+              "label": "На странице 12",
+              "pass": false
+            }
+          ],
+          "errors": []
+        }
+      },
+      {
+        "id": "js-5",
+        "solution": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "starter": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Три темы в правильном порядке",
+              "pass": false
+            }
+          ],
+          "errors": []
+        },
+        "alternative": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "wrong": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Три темы в правильном порядке",
+              "pass": false
+            }
+          ],
+          "errors": []
+        }
+      },
+      {
+        "id": "js-6",
+        "solution": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "starter": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Три нажатия дают 1, 2, 3",
+              "pass": false
+            }
+          ],
+          "errors": []
+        },
+        "alternative": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "wrong": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Три нажатия дают 1, 2, 3",
+              "pass": false
+            }
+          ],
+          "errors": []
+        }
+      },
+      {
+        "id": "project",
+        "solution": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "starter": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Добавление двух задач и безопасный текст",
+              "pass": false
+            },
+            {
+              "label": "Отметка и отмена выполнения",
+              "pass": false,
+              "detail": "Cannot read properties of null (reading 'querySelector')"
+            },
+            {
+              "label": "Удаление одной задачи сохраняет другую",
+              "pass": false,
+              "detail": "Cannot read properties of null (reading 'click')"
+            }
+          ],
+          "errors": []
+        },
+        "alternative": {
+          "pass": true,
+          "details": [],
+          "errors": []
+        },
+        "wrong": {
+          "pass": false,
+          "details": [
+            {
+              "label": "Добавление двух задач и безопасный текст",
+              "pass": false
+            },
+            {
+              "label": "Отметка и отмена выполнения",
+              "pass": false,
+              "detail": "Cannot read properties of null (reading 'querySelector')"
+            },
+            {
+              "label": "Удаление одной задачи сохраняет другую",
+              "pass": false,
+              "detail": "Cannot read properties of null (reading 'click')"
+            }
+          ],
+          "errors": []
+        }
+      }
+    ],
+    "narrow": {
+      "pass": true,
+      "details": [],
+      "errors": []
+    },
+    "narrowWrong": {
+      "pass": false,
+      "details": [
+        {
+          "label": "Отступ зависит от ширины",
+          "pass": false
+        }
+      ],
+      "errors": []
+    },
+    "security": [
+      {
+        "label": "Нет доступа к DOM родителя",
+        "pass": true
+      },
+      {
+        "label": "Нет доступа к localStorage",
+        "pass": true
+      }
+    ],
+    "runtimeError": [
+      "Uncaught Error: Тестовая ошибка"
+    ],
+    "syntaxError": [
+      "Uncaught SyntaxError: Failed to execute 'append' on 'Element': Unexpected token '='"
+    ],
+    "spoof": [
+      {
+        "label": "Настоящий ответ",
+        "pass": true
+      }
+    ]
+  },
+  "ui": {
+    "beforeSolution": "0",
+    "afterSolution": "0",
+    "completed": "Пройдено",
+    "reload": {
+      "lesson": "Заголовки и абзацы",
+      "codeRestored": true,
+      "state": "Пройдено"
+    },
+    "keyboard": "true",
+    "reset": true,
+    "corruptState": {
+      "warning": true,
+      "preserved": true,
+      "usable": true
+    },
+    "deniedState": {
+      "warning": true,
+      "usable": true
+    },
+    "dimensions": [
+      {
+        "width": 1440,
+        "document": 1440,
+        "overflow": false
+      },
+      {
+        "width": 1024,
+        "document": 1024,
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "document": 768,
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "document": 390,
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "document": 320,
+        "overflow": false
+      }
+    ],
+    "mobile": true,
+    "mobileResult": true,
+    "largeText": {
+      "overflow": false
+    }
+  }
+}

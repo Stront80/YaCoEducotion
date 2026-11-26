@@ -1,0 +1,55 @@
+{
+  "reset": true,
+  "solution": true,
+  "input": true,
+  "safeText": true,
+  "isolation": true,
+  "lineNumber": true,
+  "eof": true,
+  "outputLimit": true,
+  "stop": true,
+  "recovery": true,
+  "timeout": true,
+  "retry": true,
+  "drafts": true,
+  "dimensions": [
+    {
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "width": 1024,
+      "scroll": 1024
+    },
+    {
+      "width": 768,
+      "scroll": 768
+    },
+    {
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "width": 320,
+      "scroll": 320
+    }
+  ],
+  "mobile": true,
+  "largeText": {
+    "font": "32px",
+    "overflow": false
+  },
+  "corrupt": {
+    "warning": true,
+    "usable": true,
+    "preserved": true
+  },
+  "denied": {
+    "warning": true,
+    "usable": true,
+    "preserved": false
+  },
+  "loadFailure": true,
+  "pageErrors": [],
+  "externalRequests": []
+}

@@ -1,0 +1,131 @@
+{
+  "lessons": [
+    {
+      "id": "start-1",
+      "success": true
+    },
+    {
+      "id": "start-2",
+      "success": true
+    },
+    {
+      "id": "start-3",
+      "success": true
+    },
+    {
+      "id": "start-4",
+      "success": true
+    },
+    {
+      "id": "start-5",
+      "success": true
+    },
+    {
+      "id": "start-6",
+      "success": true
+    },
+    {
+      "id": "panes-1",
+      "success": true
+    },
+    {
+      "id": "panes-2",
+      "success": true
+    },
+    {
+      "id": "panes-3",
+      "success": true
+    },
+    {
+      "id": "panes-4",
+      "success": true
+    },
+    {
+      "id": "panes-5",
+      "success": true
+    },
+    {
+      "id": "panes-6",
+      "success": true
+    },
+    {
+      "id": "manage-1",
+      "success": true
+    },
+    {
+      "id": "manage-2",
+      "success": true
+    },
+    {
+      "id": "manage-3",
+      "success": true
+    },
+    {
+      "id": "manage-4",
+      "success": true
+    },
+    {
+      "id": "manage-5",
+      "success": true
+    },
+    {
+      "id": "manage-6",
+      "success": true
+    },
+    {
+      "id": "final",
+      "success": true
+    }
+  ],
+  "reload": true,
+  "nestedGeometry": true,
+  "reset": true,
+  "screenKeys": true,
+  "zoom": true,
+  "confirmClose": true,
+  "detachAttach": true,
+  "safeText": true,
+  "cancelPrefix": true,
+  "focusIsolation": true,
+  "touchChoice": true,
+  "history": true,
+  "dimensions": [
+    {
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "width": 1024,
+      "scroll": 1024
+    },
+    {
+      "width": 768,
+      "scroll": 768
+    },
+    {
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "width": 320,
+      "scroll": 320
+    }
+  ],
+  "mobile": true,
+  "largeText": {
+    "font": "32px",
+    "overflow": false
+  },
+  "corrupt": {
+    "warning": true,
+    "usable": true,
+    "preserved": true
+  },
+  "denied": {
+    "warning": true,
+    "usable": true,
+    "preserved": false
+  },
+  "pageErrors": [],
+  "externalRequests": []
+}

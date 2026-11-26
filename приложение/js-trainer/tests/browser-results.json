@@ -1,0 +1,181 @@
+{
+  "lessons": [
+    "js-1",
+    "js-2",
+    "js-3",
+    "js-4",
+    "js-5",
+    "js-6",
+    "js-7",
+    "js-8",
+    "js-9",
+    "js-10",
+    "js-11",
+    "js-12",
+    "js-13",
+    "js-14",
+    "js-15",
+    "js-16",
+    "js-17",
+    "js-18",
+    "js-19"
+  ],
+  "variants": [
+    {
+      "id": "js-1",
+      "alternative": true,
+      "startRejected": true,
+      "errorRejected": true
+    },
+    {
+      "id": "js-2",
+      "alternative": true,
+      "startRejected": true,
+      "errorRejected": true
+    },
+    {
+      "id": "js-3",
+      "alternative": true,
+      "startRejected": true,
+      "errorRejected": true
+    },
+    {
+      "id": "js-4",
+      "alternative": true,
+      "startRejected": true,
+      "errorRejected": true
+    },
+    {
+      "id": "js-5",
+      "alternative": true,
+      "startRejected": true,
+      "errorRejected": true
+    },
+    {
+      "id": "js-6",
+      "alternative": true,
+      "startRejected": true,
+      "errorRejected": true
+    },
+    {
+      "id": "js-7",
+      "alternative": true,
+      "startRejected": true,
+      "errorRejected": true
+    },
+    {
+      "id": "js-8",
+      "alternative": true,
+      "startRejected": true,
+      "errorRejected": true
+    },
+    {
+      "id": "js-9",
+      "alternative": true,
+      "startRejected": true,
+      "errorRejected": true
+    },
+    {
+      "id": "js-10",
+      "alternative": true,
+      "startRejected": true,
+      "errorRejected": true
+    },
+    {
+      "id": "js-11",
+      "alternative": true,
+      "startRejected": true,
+      "errorRejected": true
+    },
+    {
+      "id": "js-12",
+      "alternative": true,
+      "startRejected": true,
+      "errorRejected": true
+    },
+    {
+      "id": "js-13",
+      "alternative": true,
+      "startRejected": true,
+      "errorRejected": true
+    },
+    {
+      "id": "js-14",
+      "alternative": true,
+      "startRejected": true,
+      "errorRejected": true
+    },
+    {
+      "id": "js-15",
+      "alternative": true,
+      "startRejected": true,
+      "errorRejected": true
+    },
+    {
+      "id": "js-16",
+      "alternative": true,
+      "startRejected": true,
+      "errorRejected": true
+    },
+    {
+      "id": "js-17",
+      "alternative": true,
+      "startRejected": true,
+      "errorRejected": true
+    },
+    {
+      "id": "js-18",
+      "alternative": true,
+      "startRejected": true,
+      "errorRejected": true
+    },
+    {
+      "id": "js-19",
+      "alternative": true,
+      "startRejected": true,
+      "errorRejected": true
+    }
+  ],
+  "dimensions": [
+    {
+      "width": 1440,
+      "document": 1440
+    },
+    {
+      "width": 1024,
+      "document": 1024
+    },
+    {
+      "width": 768,
+      "document": 768
+    },
+    {
+      "width": 390,
+      "document": 390
+    },
+    {
+      "width": 320,
+      "document": 320
+    }
+  ],
+  "reload": true,
+  "dialogs": true,
+  "textOnly": true,
+  "syntax": true,
+  "outputLimit": true,
+  "stop": true,
+  "timeout": true,
+  "promiseTimeout": true,
+  "workerContext": true,
+  "tab": true,
+  "mobileTabs": true,
+  "largeText": {
+    "width": 1440,
+    "document": 1440,
+    "text": "32px"
+  },
+  "corrupt": true,
+  "denied": true,
+  "pageErrors": [],
+  "externalRequests": []
+}
