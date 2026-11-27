@@ -56,8 +56,29 @@ node приложение/yacoeducation/tests/core.test.cjs
 
 Для Node-тестов нужен Node.js с поддержкой node:test и structuredClone. Для использования сайта Node.js не требуется. [Отчёт интеграции](приложение/yacoeducation/проверки.md): 22 теста, 7/7 мастерских с выполнением задания, сохранение/переходы, проверки расширения реестра, пять ширин и текст 200%. Это не повторное прохождение всех 133 занятий; отдельные тесты курсов находятся в их папках.
 
-Сервер слушает только 127.0.0.1 и предназначен для локальной разработки. Это исходники работающего локального сайта; GitHub Pages и production-деплой не настраиваются автоматически.
+Сервер слушает только 127.0.0.1 и предназначен для локальной разработки. Для GitHub Pages добавлены отдельная статическая сборка и workflow; сам Python-сервер на Pages не запускается.
 
 ## Сторонние компоненты
 
 Python-мастерская включает локальный Pyodide и Python. Лицензии: [Pyodide](приложение/python-trainer/vendor/PYODIDE-LICENSE) и [Python](приложение/python-trainer/vendor/PYTHON-LICENSE). Подробности версий и контрольных сумм — в [README Python-мастерской](приложение/python-trainer/README.md).
+
+## GitHub Pages
+
+Подготовлен workflow [.github/workflows/pages.yml](.github/workflows/pages.yml).
+Он запускает проверки, собирает статический сайт и публикует только `_site`.
+После разрешённой отправки изменений выберите **Settings → Pages → Source → GitHub Actions**,
+затем запустите **Actions → Publish YaCoEducation to GitHub Pages → Run workflow** для main.
+Дальнейшие push в main будут автоматически обновлять сайт.
+Ожидаемый адрес: **https://stront80.github.io/YaCoEducotion/**.
+
+Локальная сборка без установки зависимостей:
+
+```bash
+python3 приложение/yacoeducation/build_static.py --output _site
+python3 -m http.server 8773 --bind 127.0.0.1 --directory _site
+```
+
+Откройте http://127.0.0.1:8773/. Для повторной сборки укажите новую или пустую папку:
+сборщик не удаляет и не перезаписывает существующий результат.
+Подробности и ограничения — в [инструкции](приложение/yacoeducation/README.md#github-pages).
+Прогресс с локального адреса автоматически на Pages не переносится.

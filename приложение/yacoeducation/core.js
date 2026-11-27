@@ -7,7 +7,9 @@
     if(value?.version!==1||value.brand!=='YaCoEducation'||!Array.isArray(value.workshops)||!value.workshops.length||value.workshops.length>60)throw new Error('Неверный формат каталога.');
     const ids=new Set(),keys=new Set();
     for(const w of value.workshops){
-      if(!w||!/^([a-z][a-z0-9-]{0,39})$/.test(w.id)||ids.has(w.id)||w.url!=='/workshops/'+w.id+'/'||!accents.includes(w.accent)||!Number.isInteger(w.lessonCount)||w.lessonCount<1||w.lessonCount>1000)throw new Error('Неверная запись мастерской.');
+      // Разрешены только два точных маршрута: локального сервера и сборки.
+      // Относительный путь сохраняет префикс проекта на GitHub Pages.
+      if(!w||!/^([a-z][a-z0-9-]{0,39})$/.test(w.id)||ids.has(w.id)||!['/workshops/'+w.id+'/', './workshops/'+w.id+'/'].includes(w.url)||!accents.includes(w.accent)||!Number.isInteger(w.lessonCount)||w.lessonCount<1||w.lessonCount>1000)throw new Error('Неверная запись мастерской.');
       ids.add(w.id);
       for(const name of ['title','subtitle','category','badge','mode','description','level'])if(typeof w[name]!=='string'||!w[name].trim()||w[name].length>500)throw new Error('Неверное описание мастерской.');
       if(!Array.isArray(w.topics)||w.topics.length<1||w.topics.length>5||w.topics.some(t=>typeof t!=='string'||!t.trim()||t.length>40))throw new Error('Неверные темы.');

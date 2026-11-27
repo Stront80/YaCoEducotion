@@ -64,10 +64,12 @@
     const attempt=++request;$('loading').hidden=false;$('error').hidden=true;$('catalog').hidden=true;$('study').hidden=true;unmount();
     const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),5000);
     try{
-      const response=await fetch('/api/workshops',{signal:controller.signal,cache:'no-store'});if(!response.ok)throw new Error('Каталог не ответил. Проверьте локальный сервер и реестр.');const value=Core.validate(await response.json());if(attempt!==request)return;registry=value;
+      // Сборщик указывает статический JSON; локальный запуск сохраняет API.
+      const catalog=document.documentElement.dataset.registry||'./api/workshops';
+      const response=await fetch(catalog,{signal:controller.signal,cache:'no-store'});if(!response.ok)throw new Error('Не удалось загрузить каталог. Проверьте подключение и попробуйте ещё раз.');const value=Core.validate(await response.json());if(attempt!==request)return;registry=value;
       $('workshop-total').textContent=registry.workshops.length;$('lesson-total').textContent=registry.workshops.reduce((n,w)=>n+w.lessonCount,0);$('workshop-select').replaceChildren();for(const w of registry.workshops){const option=el('option','',w.title);option.value=w.id;$('workshop-select').append(option);}
       refreshProgress();renderCategories();renderPaths();$('loading').hidden=true;navigate();
-    }catch(e){if(attempt!==request)return;registry=null;$('loading').hidden=true;$('error').hidden=false;$('error-message').textContent=e.name==='AbortError'?'Сервер не ответил за 5 секунд. Убедитесь, что запущен serve.py.':e.message;}
+    }catch(e){if(attempt!==request)return;registry=null;$('loading').hidden=true;$('error').hidden=false;$('error-message').textContent=e.name==='AbortError'?'Каталог не ответил за 5 секунд. Проверьте подключение и повторите загрузку.':e.message;}
     finally{clearTimeout(timer);}
   }
   $('search').addEventListener('input',()=>{query=$('search').value;renderCards();});$('status-filter').addEventListener('change',()=>{status=$('status-filter').value;renderCards();});

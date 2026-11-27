@@ -5,6 +5,10 @@ const publicData={...raw,workshops:raw.workshops.map(({source,...w})=>({...w,url
 const course=publicData.workshops[0],storage=value=>({getItem:()=>value});
 test('Схема публичного реестра и уникальность',()=>{assert.equal(Core.validate(publicData),publicData);const bad=structuredClone(publicData);bad.workshops[1].id=bad.workshops[0].id;assert.throws(()=>Core.validate(bad));});
 test('Внешний URL вместо мастерской отклоняется',()=>{const bad=structuredClone(publicData);bad.workshops[0].url='https://example.com/';assert.throws(()=>Core.validate(bad));});
+test('Статические маршруты сохраняют префикс Pages, выход из папки запрещён',()=>{
+  const data=structuredClone(publicData);for(const w of data.workshops)w.url='./workshops/'+w.id+'/';assert.equal(Core.validate(data),data);
+  for(const url of ['//example.com/','../workshops/web/','./workshops/web/../python/','/YaCoEducotion/workshops/web/','javascript:alert(1)']){const bad=structuredClone(data);bad.workshops[0].url=url;assert.throws(()=>Core.validate(bad));}
+});
 test('Прогресс: пустой, частичный, полный',()=>{assert.equal(Core.progress(course,storage(null)).status,'empty');let p=Core.progress(course,storage(JSON.stringify({version:1,completed:[course.progress.lessonIds[0]]})));assert.equal(p.count,1);assert.equal(p.status,'active');p=Core.progress(course,storage(JSON.stringify({version:1,completed:course.progress.lessonIds})));assert.equal(p.status,'done');});
 test('Неизвестные и повторные ID не увеличивают результат',()=>{const p=Core.progress(course,storage(JSON.stringify({version:1,completed:[course.progress.lessonIds[0],course.progress.lessonIds[0],'invented']})));assert.equal(p.count,1);});
 test('Повреждённые/несовместимые записи не читаются как нулевой прогресс',()=>{for(const raw of ['{broken','null','{"version":2,"completed":[]}','{"version":1,"completed":false}'])assert.equal(Core.progress(course,storage(raw)).status,'unavailable');});

@@ -114,6 +114,54 @@ python3 приложение/yacoeducation/serve.py --check
 
 ## Проверки и устройство
 
+### GitHub Pages
+
+Статическая сборка работает без `serve.py` на хостинге. Нужен только Python
+3.10+ на этапе сборки; установка пакетов не требуется:
+
+```bash
+python3 приложение/yacoeducation/build_static.py --output _site
+python3 -m http.server 8773 --bind 127.0.0.1 --directory _site
+```
+
+Откройте `http://127.0.0.1:8773/`. Каталог `_site` должен быть новым или пустым:
+сборщик отказывается перезаписывать существующие файлы и не удаляет их.
+Для повторной проверки укажите другой выходной каталог.
+
+Сборка содержит главную страницу, `workshops-public.json`, папки
+`workshops/ID/`, локальный Python runtime и лицензии. Она исключает тесты,
+снимки и серверные скрипты. Все адреса относительно страницы, поэтому один
+комплект работает в корне хостинга и под `/YaCoEducotion/`. Исходный реестр
+с `source` не публикуется. Для добавления курса достаточно обновить реестр
+и пересобрать сайт; новые типы ресурсов должны соответствовать контракту выше.
+
+В репозитории `Stront80/YaCoEducotion` workflow должен находиться в
+`.github/workflows/pages.yml`. Его шаблон — [github-pages.yml](github-pages.yml).
+В подготовленном комплекте репозитория файл уже помещён по этому адресу.
+После отдельного разрешения на отправку и публикацию:
+
+1. Отправьте подготовленные изменения в `main`.
+2. В **Settings → Pages → Build and deployment → Source** выберите **GitHub Actions**.
+3. В **Actions → Publish YaCoEducation to GitHub Pages → Run workflow** запустите `main`.
+4. Проверьте успешные задания `build` и `deploy`, откройте адрес из deployment.
+
+Workflow проверяет реестр и тесты, собирает `_site` и передаёт только его
+в GitHub Pages. После включения Pages последующие push в `main` публикуют
+обновления автоматически. Если первый запуск произошёл до выбора источника,
+повторите workflow после настройки Pages. Ожидаемый адрес:
+`https://stront80.github.io/YaCoEducotion/`.
+
+Настройка workflow основана на [документации GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+Проверка готовой сборки в браузере описана в `tests/browser-pages.js`:
+там сайт расположен под `/YaCoEducotion/`, как на Pages.
+
+На публичном адресе прогресс хранится в браузере отдельно от `127.0.0.1`.
+Хранилище GitHub Pages общее для origin `stront80.github.io`: путь репозитория
+не изолирует localStorage. Одни и те же ключи в других сайтах этого владельца
+могут пересекаться; новые ключи здесь не вводились, чтобы сохранить совместимость.
+
+### Команды проверки
+
 ```bash
 python3 приложение/yacoeducation/serve.py --check
 PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s приложение/yacoeducation/tests -p 'test_*.py' -v
